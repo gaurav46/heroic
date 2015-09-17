@@ -11,6 +11,7 @@
 
   <modules>
     <module>heroic-component</module>
+    <module>heroic-netty-shell</module>
     <module>heroic-elasticsearch-utils</module>
     <module>heroic-core</module>
     <module>heroic-shell</module>
@@ -99,6 +100,12 @@
       <dependency>
         <groupId>com.spotify.heroic</groupId>
         <artifactId>heroic-coalesce</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.spotify.heroic</groupId>
+        <artifactId>heroic-netty-shell</artifactId>
         <version>${project.version}</version>
       </dependency>
 

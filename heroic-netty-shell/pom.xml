@@ -6,14 +6,16 @@
     <groupId>com.spotify.heroic</groupId>
     <artifactId>heroic-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../..</relativePath>
+    <relativePath>..</relativePath>
   </parent>
 
-  <groupId>com.spotify.heroic.rpc</groupId>
-  <artifactId>heroic-rpc-nativerpc</artifactId>
+  <artifactId>heroic-netty-shell</artifactId>
   <packaging>jar</packaging>
 
-  <name>Heroic: Native RPC Protocol</name>
+  <name>Heroic: Netty Components for Remote Shells</name>
+
+  <description>
+  </description>
 
   <dependencies>
     <dependency>
@@ -23,24 +25,18 @@
     </dependency>
 
     <dependency>
-      <groupId>com.fasterxml.jackson.jaxrs</groupId>
-      <artifactId>jackson-jaxrs-json-provider</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>heroic-component</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>com.spotify.heroic</groupId>
-      <artifactId>heroic-component</artifactId>
+      <groupId>eu.toolchain.serializer</groupId>
+      <artifactId>tiny-serializer-core</artifactId>
     </dependency>
 
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-all</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.msgpack</groupId>
-      <artifactId>msgpack</artifactId>
-      <version>0.6.11</version>
     </dependency>
 
     <!-- testing -->

@@ -24,6 +24,10 @@
       <artifactId>heroic-parser</artifactId>
     </dependency>
     <dependency>
+      <groupId>com.spotify.heroic</groupId>
+      <artifactId>heroic-netty-shell</artifactId>
+    </dependency>
+    <dependency>
       <groupId>eu.toolchain.async</groupId>
       <artifactId>tiny-async-core</artifactId>
     </dependency>

@@ -51,6 +51,11 @@
       <artifactId>heroic-all</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>com.spotify.heroic</groupId>
+      <artifactId>heroic-netty-shell</artifactId>
+    </dependency>
+
     <!-- testing -->
     <dependency>
       <groupId>junit</groupId>
